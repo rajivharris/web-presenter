@@ -28,6 +28,7 @@ export const App = () => {
           />
         </svg>
       </header>
+      {/*@ts-ignore*/}
       <SplitPane split="vertical" defaultSize="15%" minSize="10%">
         <SongSection />
         <SongTiles />
